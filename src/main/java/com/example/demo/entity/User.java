@@ -13,6 +13,7 @@ import lombok.experimental.Accessors;
 @ToString               //字符串打印
 @Accessors(chain = true)
 //TableName("t_user")   //数据库中表叫做t_user，实体类叫User
+//用户表
 public class User {
     //TableId(value = "uid")    //数据库中表栏位叫做uid，实体类中叫id
     private int id;
